@@ -1,0 +1,17 @@
+{
+  "name": "file-system-event-debouncer",
+  "version": "0.1.0",
+  "description": "Deduplicates fs.watch file change events by emitting one notification per path within a time window",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {}
+}
